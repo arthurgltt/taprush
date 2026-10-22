@@ -10,7 +10,9 @@
   "bitrise": {},
   "ios": {
     "path": "ios",
-    "scheme": "TapRush"
+    "scheme": "TapRush",
+    "configuration": "Release",
+    "bundleId": "com.arthurgltt.taprush"
   },
   "flutter": {
     "watch": {}
