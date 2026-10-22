@@ -1,0 +1,23 @@
+{
+  "project": "Tap Rush",
+  "platform": "ios",
+  "github": {
+    "owner": "arthurgltt",
+    "repo": "taprush"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "path": "ios",
+    "scheme": "TapRush"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {
+    "expo": true
+  },
+  "kmp": {},
+  "mobai": {}
+}
