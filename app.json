@@ -1,13 +1,17 @@
 {
   "expo": {
-    "name": "TapRush",
+    "name": "Tap Rush",
     "slug": "TapRush",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arthurgltt.taprush",
+      "infoPlist": {
+        "UIRequiresFullScreen": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -16,7 +20,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.arthurgltt.taprush"
     },
     "web": {
       "favicon": "./assets/favicon.png"
